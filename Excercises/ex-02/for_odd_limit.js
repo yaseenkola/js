@@ -1,9 +1,9 @@
 function printOdds(limit) {
-  for (num = 1; num <= 20; num++) {
+  for (num = 1; num <= limit; num++) {
     if (num % 2 != 0) {
       console.log(num);
     }
   }
 }
 
-printOdds(20);
+printOdds(30);
